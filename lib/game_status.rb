@@ -29,5 +29,5 @@ def over?(board)
 end
 
 def winner(board)
-  over?(board) ? board[won?(board)[0]] : NIL
+  won?(board) ? board[won?(board)[0]] : NIL
 end
